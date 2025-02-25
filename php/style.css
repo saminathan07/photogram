@@ -1,0 +1,50 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-style: dotted;
+    padding: 15px;
+    padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  }
+  div {
+    width:300px;
+    margin:auto;
+    
+    display: inline-block;
+    grid-template-columns: 33% 33% 33%;
+  }
+  .city { 
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
+  #myHeader {
+    background-color: rgb(193, 116, 149);
+    color: black;
+    padding: 40px;
+    text-align: center;
+  }
+  .all-browsers {
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+  }
+  
+  .all-browsers > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .browser {
+    background: white;
+  }
+  
+  .browser > h2, p {
+    margin: 4px;
+    font-size: 90%;
+  }
+  
